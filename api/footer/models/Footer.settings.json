@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "footer",
+  "info": {
+    "name": "footer",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "locationTitle": {
+      "default": "",
+      "type": "string"
+    },
+    "contactTitle": {
+      "default": "",
+      "type": "string"
+    },
+    "email": {
+      "default": "",
+      "type": "string"
+    },
+    "phoneNumber": {
+      "default": "",
+      "type": "string"
+    },
+    "facebook": {
+      "model": "link"
+    },
+    "address": {
+      "default": "",
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "connection": "default",
+  "collectionName": "header",
+  "info": {
+    "name": "header",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "info": {
+      "default": "",
+      "type": "string"
+    },
+    "packages": {
+      "default": "",
+      "type": "string"
+    },
+    "history": {
+      "default": "",
+      "type": "string"
+    },
+    "sponsors": {
+      "default": "",
+      "type": "string"
+    },
+    "photos": {
+      "default": "",
+      "type": "string"
+    },
+    "team": {
+      "default": "",
+      "type": "string"
+    },
+    "contact": {
+      "default": "",
+      "type": "string"
+    },
+    "subscibe": {
+      "model": "link"
+    },
+    "logo": {
+      "model": "image"
+    },
+    "ball": {
+      "model": "image"
+    }
+  }
+}

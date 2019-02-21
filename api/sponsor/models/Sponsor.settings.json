@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "sponsor",
+  "info": {
+    "name": "sponsor",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "presentationTitle": {
+      "default": "",
+      "type": "string"
+    },
+    "presentationButton": {
+      "model": "link"
+    },
+    "presentationLogos": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "sponsorTitle": {
+      "default": "",
+      "type": "string"
+    },
+    "sponsorButton": {
+      "model": "link"
+    },
+    "sponsorLogos": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

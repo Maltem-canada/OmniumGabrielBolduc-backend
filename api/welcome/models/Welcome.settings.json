@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "welcome",
+  "info": {
+    "name": "welcome",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "background": {
+      "model": "image"
+    },
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "subTitle": {
+      "default": "",
+      "type": "string"
+    },
+    "editionNumber": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

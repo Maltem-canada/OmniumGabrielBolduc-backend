@@ -1,0 +1,49 @@
+{
+  "connection": "default",
+  "collectionName": "agglomerate",
+  "info": {
+    "name": "agglomerate",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "language": {
+      "default": "",
+      "type": "string"
+    },
+    "footer": {
+      "model": "footer"
+    },
+    "headers": {
+      "model": "header"
+    },
+    "welcome": {
+      "model": "welcome"
+    },
+    "info": {
+      "model": "info"
+    },
+    "packages": {
+      "collection": "package",
+      "via": "agglomerate"
+    },
+    "transition": {
+      "model": "image"
+    },
+    "history": {
+      "model": "history"
+    },
+    "sponsor": {
+      "model": "sponsor"
+    },
+    "galleries": {
+      "collection": "gallery",
+      "via": "agglomerate"
+    },
+    "team": {
+      "model": "team"
+    }
+  }
+}

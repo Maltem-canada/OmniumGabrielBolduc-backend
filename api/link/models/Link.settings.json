@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "link",
+  "info": {
+    "name": "link",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "text": {
+      "default": "",
+      "type": "string"
+    },
+    "link": {
+      "default": "",
+      "type": "string"
+    },
+    "doesOpenNewWindow": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "team",
+  "info": {
+    "name": "team",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "members": {
+      "collection": "member",
+      "via": "team"
+    }
+  }
+}

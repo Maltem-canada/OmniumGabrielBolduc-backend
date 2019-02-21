@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/welcomes",
+      "handler": "Welcome.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/welcomes/count",
+      "handler": "Welcome.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/welcomes/:_id",
+      "handler": "Welcome.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/welcomes",
+      "handler": "Welcome.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/welcomes/:_id",
+      "handler": "Welcome.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/welcomes/:_id",
+      "handler": "Welcome.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

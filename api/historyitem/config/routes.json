@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/historyitems",
+      "handler": "Historyitem.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/historyitems/count",
+      "handler": "Historyitem.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/historyitems/:_id",
+      "handler": "Historyitem.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/historyitems",
+      "handler": "Historyitem.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/historyitems/:_id",
+      "handler": "Historyitem.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/historyitems/:_id",
+      "handler": "Historyitem.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

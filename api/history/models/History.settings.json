@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "history",
+  "info": {
+    "name": "history",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "historyitems": {
+      "collection": "historyitem",
+      "via": "history"
+    },
+    "enfantSoleil": {
+      "model": "image"
+    },
+    "lastPhoto": {
+      "model": "image"
+    },
+    "donation": {
+      "model": "link"
+    },
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "undefined": {
+      "collection": "agglomerate",
+      "via": "history"
+    }
+  }
+}

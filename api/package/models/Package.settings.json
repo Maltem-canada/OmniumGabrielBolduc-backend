@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "forfait",
+  "info": {
+    "name": "package",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "price": {
+      "default": "",
+      "type": "string"
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "agglomerate": {
+      "model": "agglomerate",
+      "via": "packages"
+    }
+  }
+}

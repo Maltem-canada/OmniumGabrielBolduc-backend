@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "infoitem",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "image": {
+      "model": "image"
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "info": {
+      "model": "info",
+      "via": "items"
+    }
+  }
+}

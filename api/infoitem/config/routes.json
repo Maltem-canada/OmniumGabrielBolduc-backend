@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/infoitems",
+      "handler": "Infoitem.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/infoitems/count",
+      "handler": "Infoitem.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/infoitems/:_id",
+      "handler": "Infoitem.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/infoitems",
+      "handler": "Infoitem.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/infoitems/:_id",
+      "handler": "Infoitem.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/infoitems/:_id",
+      "handler": "Infoitem.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
