@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "infoitem",
   "info": {
     "name": "infoitem",
     "description": ""
@@ -19,6 +19,9 @@
     "info": {
       "model": "info",
       "via": "items"
+    },
+    "linkclick": {
+      "model": "link"
     }
   }
 }

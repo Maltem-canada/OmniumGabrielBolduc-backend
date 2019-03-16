@@ -37,7 +37,7 @@ module.exports = {
         populate: {
           path: 'members galleryPhotos facebook logo image subscibe background ball items button historyitems donation enfantSoleil lastPhoto presentationButton presentationLogos sponsorButton sponsorLogos',
           populate: {
-            path: 'image photo',
+            path: 'image linkclick photo',
             populate: {
               path: 'image'
             }
