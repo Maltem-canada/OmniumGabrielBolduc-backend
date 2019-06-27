@@ -10,7 +10,7 @@ npm i
 cp .env.default .env
 ```
 ## Start
-Run mungo before running the backend  
+Run mongo before running the backend  
 ```
 npm start
 ```
