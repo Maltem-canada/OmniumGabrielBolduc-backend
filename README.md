@@ -10,7 +10,7 @@ npm i
 cp .env.default .env
 ```
 ## Start
-Run mongo before running the backend  
+:exclamation: Run mongo before running the backend  
 ```
 npm start
 ```
