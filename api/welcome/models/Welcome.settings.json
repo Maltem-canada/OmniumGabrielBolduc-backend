@@ -23,6 +23,12 @@
     "editionNumber": {
       "default": "",
       "type": "string"
+    },
+    "logo1": {
+      "model": "image"
+    },
+    "logo2": {
+      "model": "image"
     }
   }
 }
